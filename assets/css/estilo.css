@@ -1,0 +1,29 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background: rgb(35, 160, 35);
+}
+
+.cambio1 {
+    width: 500px;
+    height: 500px;
+    background: rgb(106, 211, 106);
+}
+
+.caja {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+}
+
+.miniCaja {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.color {
+    background: pink;
+}
